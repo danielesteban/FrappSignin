@@ -1,0 +1,21 @@
+{
+	"name" : "FrappSignin",
+	"version" : "0.0.1",
+	"author" : "Daniel Esteban Nombela <dani@hellacoders.com>",
+	"repository" : {
+		"type" : "git",
+		"url" : "https://github.com/danielesteban/FrappSignin.git"
+	},
+	"window" : {
+		"title" : "Sign-In with GitHub",
+		"width" : 500,
+		"height" : 230
+	},
+	"modules" : [
+		"jquery",
+		"bootstrap",
+		"handlebars",
+		"lang"
+	],
+	"main" : "index.html"
+}
