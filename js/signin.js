@@ -21,5 +21,5 @@ window.addEventListener('frapp.init', function() {
 
 window.addEventListener('frapp.signin', function(e) {
 	if(!e.detail.session) return;
-	FRAPP.close();
+	window.close();
 });
